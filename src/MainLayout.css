@@ -1,0 +1,11 @@
+.main-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.component-container {
+  border: 1px solid black;
+  padding: 16px;
+}

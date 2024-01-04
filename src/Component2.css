@@ -1,0 +1,13 @@
+.cell {
+  border: 2px solid red;
+  text-align: center;
+  padding: 16px;
+  margin: 6px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
