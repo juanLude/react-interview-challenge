@@ -19,7 +19,6 @@ export default function Component2() {
   const joinedCells = cells.join("");
   return (
     <>
-      <div>Component2</div>
       <main>
         {cells.map((cell, index) => (
           <div key={index} className="cell">

@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.guess-me {
+  /* background-color: orange; */
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
