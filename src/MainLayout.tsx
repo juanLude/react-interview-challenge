@@ -1,6 +1,7 @@
 import Component2 from "./Component2";
 import Component3 from "./Component3";
 import Component4 from "./Component4";
+import Component5 from "./Component5";
 import "./MainLayout.css";
 import Presents from "./Presents";
 export default function MainLayout() {
@@ -17,6 +18,12 @@ export default function MainLayout() {
       </div>
       <div className="component-container" style={{ padding: 0 }}>
         <Component4 />
+      </div>
+      <div
+        className="component-container"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <Component5 />
       </div>
     </div>
   );

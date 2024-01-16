@@ -53,3 +53,24 @@
   align-items: center;
   flex-direction: column;
 }
+.box {
+  background-color: orange;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  place-items: center;
+}
+/* Target the items in the last row */
+.box > :nth-child(10) {
+  grid-column: span 3;
+}
+.box button {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 44px;
+  height: 44px;
+}
