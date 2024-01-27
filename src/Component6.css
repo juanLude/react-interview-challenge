@@ -1,0 +1,28 @@
+.dropdown {
+  background-color: greenyellow;
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border: none;
+  position: relative;
+}
+.panel {
+  position: absolute;
+  top: 52px;
+  font-size: 12px;
+  background: white;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+
+  overflow-y: auto;
+}
+.panel fieldset {
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 4px;
+}
