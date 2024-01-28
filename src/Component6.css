@@ -26,3 +26,7 @@
   border: none;
   gap: 4px;
 }
+
+.panel fieldset.selected {
+  background: #1e54d255;
+}

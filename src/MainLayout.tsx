@@ -17,9 +17,9 @@ export default function MainLayout() {
       <div className="component-container">
         <Component3 />
       </div>
-      <div className="component-container" style={{ padding: 0 }}>
+      {/* <div className="component-container" style={{ padding: 0 }}>
         <Component4 />
-      </div>
+      </div> */}
       <div
         className="component-container"
         style={{ display: "flex", justifyContent: "center" }}
